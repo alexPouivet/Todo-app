@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  display: flex;
+}
+
+footer p {
+  margin: auto;
+  margin-bottom: 20px;
+}
