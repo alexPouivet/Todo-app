@@ -40,7 +40,6 @@ export const mutations = {
     }
   },
   VERIFY_IS_AD_COMPLETED(state) {
-    console.log('coucou');
     for (var i = 0; i < state.ads.length; i++) {
       if (state.ads[i].checked == true) {
         state.isAdCompleted = true
