@@ -1,9 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
   margin: 0;
   padding: 0;
 }
 
+#template {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+}
+
+header h1 {
+  margin: auto;
+  margin-top: 30px;
+}
+
+main .main {
+  display: flex;
+  margin-top: 60px;
+}
+
+main .main .tabs {
+  width: 50%;
+  margin: auto;
+}
+
+main .main .tabs ul {
+  justify-content: space-between!important;
+}
+
+main .main .tabs ul li {
+  margin: 0 50px;
+}
+
+main .main .tabs .tab-content {
+  margin: 0 50px;
+}
+
+main .main .tabs .tab-content .input {
+  display: flex;
+}
+
+main .main .tabs .tab-content .input input {
+  margin-right: 25px;
+}
+
+main .main .tabs .tab-content .tasks {
+  margin-top: 30px;
+}
+
+main .main .tabs .tab-content .tasks .task {
+  margin: 15px 0;
+  display: flex;
+}
+
+main .main .tabs .tab-content .tasks .task button {
+  margin: auto 0;
+  margin-left: auto;
+  color: #BDBDBD;
+}
+
+main .main .tabs .tab-content .tasks .task button i {
+  width: 24px;
+}
+
+main .main .tabs .tab-content .tasks input {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin: auto 0;
+}
+
+main .main .tabs .tab-content .tasks span {
+  margin: auto 0;
+  margin-left: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+main .main .tabs .tab-content .tasks .checked {
+  text-decoration: line-through;
+}
+
+main .main .tabs .tab-content .button-delete-all {
+  display: flex;
+}
+
+main .main .tabs .tab-content .button-delete-all button {
+  margin-left: auto;
+  display: flex;
+}
+
+main .main .tabs .tab-content .button-delete-all button i {
+  width: 24px;
+  margin-right: 5px;
+}
+
 footer {
+  margin-top: auto;
   display: flex;
 }
 
